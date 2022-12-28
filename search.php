@@ -1,0 +1,26 @@
+<?php
+session_start();
+?>
+<html>
+<head>
+	<title>Логин</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<a href="index.php">
+	<img src="logo.jpg" alt="Парус" width="400" height="400">
+</a>
+	<form class="loginform" action="include/otherprofile.php" method="post">
+		<label>ID</label>
+		<input type="text" name="idq" placeholder="ID"><BR><BR>
+		<button type="submit">ID</button>
+		<?php
+			if ($_SESSION['message']) {
+				echo '<p class="msg"> ' . $_SESSION['message'] . '</p>';
+			}
+			unset($_SESSION['message']);
+			unset($_SESSION['message']);
+		?>
+	</form>
+</body>
+</html>
