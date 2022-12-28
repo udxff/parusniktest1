@@ -1,4 +1,5 @@
 <?php
+//Парусник - 12.2022
     session_start();
     $userdata = $_SESSION['user'];
 ?>

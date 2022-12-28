@@ -1,4 +1,5 @@
 <?php
+//Парусник - 12.2022
     session_start();
     require_once 'connect.php';
     $mlogin = $_POST['loginh'];
