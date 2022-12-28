@@ -5,7 +5,7 @@
 </head>
 <body>
 <a href="index.php">
-	<img src="logo.jpg" alt="Парус" width="400" height="400">
+	<img src="logo.jpg" alt="Парусник" width="400" height="400">
 </a>
 <a href="myprofile.php"> Моя страница </a><BR><BR>
 <p>|</p>
