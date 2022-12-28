@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+body {
+    font-family:Montserrat,sans-serif;
+    display:flex;
+}
+
+.loginform {
+    display:flex;
+    flex-direction:column;
+    width:400px;
+}
+input {
+    margin :7px 0;
+    padding: 7px;
+
+}
+
+button {
+    padding: 7px;
+    background: #e3e3e3;
+    cursor:pointer;
+}
+
+a {
+    color: rgba(64, 93, 183, 0.53);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0;
+    padding:10px 0;
+    margin: 10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.msg {
+    border:2px solid #b70a08;
+    border-radius:3px;
+    padding: 10px;
+    color: #b70a08;
+    text-align:center;
+    font-weight: bold;
+}
+
