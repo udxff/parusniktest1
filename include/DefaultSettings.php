@@ -9,4 +9,8 @@
     $passwordm = "";
     //Название ДБ
     $databasem = "parusnik-test";
+    //Версия
+    $version = "29/12/22";
+    //Название
+    $name = "ПАРУСНИК";
 ?>
