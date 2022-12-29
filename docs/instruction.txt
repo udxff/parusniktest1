@@ -5,4 +5,3 @@
         : сравнение utf8generalci
         ID - ЧИСЛО   REALNAME - TEXT LOGIN-TEXT EMAIL-TEXT PASSWORDM-TEXT(PASSWORD)
         A/I
-
