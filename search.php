@@ -12,9 +12,9 @@ session_start();
 	<img src="logo.jpg" alt="Парус" width="400" height="400">
 </a>
 	<form class="loginform" action="include/otherprofile.php" method="post">
-		<label>ID</label>
+		<label>Логин</label>
 		<input type="text" name="idq" placeholder="ID"><BR><BR>
-		<button type="submit">ID</button>
+		<button type="submit">Поиск по логину</button>
 		<?php
 			if ($_SESSION['message']) {
 				echo '<p class="msg"> ' . $_SESSION['message'] . '</p>';
