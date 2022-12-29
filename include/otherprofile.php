@@ -13,5 +13,8 @@
             "login" => $userb['login']
         ];
         header("Location: ../watchp.php");
-}
+    }
+    else {
+        header("Location: ../index.php");
+    }
 ?>

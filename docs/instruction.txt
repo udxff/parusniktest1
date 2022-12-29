@@ -1,0 +1,8 @@
+Перед установкой прочитать!
+1.  Необходимо изменить настройки ДБ в файле ../include/DefaultSettings.php
+2.  Необходимо создать таблицу USERS в ДБ
+    по этому макету
+        : сравнение utf8generalci
+        ID - ЧИСЛО   REALNAME - TEXT LOGIN-TEXT EMAIL-TEXT PASSWORDM-TEXT(PASSWORD)
+        A/I
+
